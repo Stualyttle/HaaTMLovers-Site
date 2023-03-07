@@ -16,7 +16,8 @@ body {
 }
 
 h1 {
-    font-size: 3.052rem
+    font-size: 3.052rem;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -39,4 +40,8 @@ p {
     font-size: 1rem;
     line-height: 1.5;
     color: var(--clr-tertiary);
+}
+
+a {
+    font-weight: bold;
 }
