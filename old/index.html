@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="nl-NL">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.1.1.386"/>
+  
+  <script type="text/javascript">
+   // Redirect to phone/tablet as necessary
+(function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
+0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
+0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)b=document.location.search||"",d=document.location.hash||"",document.write('<style type="text/css">body {visibility:hidden}</style>'),document.location=h+b+d}})("desktop","tablet/index.html","");
+
+// Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "jquery.scrolleffects.js", "webpro.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <link media="only screen and (max-width: 960px)" rel="alternate" href="http://haatmlovers.com/tablet/index.html"/>
+  <link rel="shortcut icon" href="images/a-master-favicon.ico?crc=252199749"/>
+  <title>HaaTMLovers - Home</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3836699868"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=92685940" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+  <script src="https://webfonts.creativecloud.com/maven-pro:n4:all.js" type="text/javascript"></script>
+  <script src="https://use.typekit.net/ik/DDyDW8rfEnMCkniuLxaWNpoR8Ypk5pSTCNpAPBqqn1SfeTIgf4xR1UJPHQwtwRjowDbDWDIt5QMo529tFc4cZcJajRZRjcIhFcmRjDMUwcsRZ2JDeR97OcyyjWsldeNhZW4DOcFzdPUGjABXdAUzicmkSkoRdhXCiaiaOcyyjWsldeNhZW4DOcFzdPJBjW4TdAv7fbKhPUMMeMb6MPG4fOyOIMMjgkMgP6sFiWF8qMYfaHWEgb.js" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   try {Typekit.load();} catch(e) {}
+</script>
+    <!--HTML Widget code-->
+  
+      <style>
+
+        #page #u2120 {
+          display: none;
+        }
+
+        body .u2120-mt_btn_top {
+          opacity: 0;
+          visibility: hidden;
+          position: fixed;
+          padding: 15px;
+          z-index: 999;
+          display: inline-block;
+          background: rgba(255,255,255, 1);
+          border: 3px solid rgba(114,137,218, 1);
+          outline: none;
+          font-size: 14px;
+          text-decoration: none !important;
+          color: rgb(114,137,218);
+          border-radius: 161px;
+          transition: visibility 1s, opacity 1s;
+          font-family: Source Sans Pro, Arial, sans-serif;
+          min-width: calc(60px - 30px);
+          height: calc(60px - 30px);
+          line-height: calc(60px - 30px);
+          text-align: center;
+          transition-delay: 0s;
+        }
+
+        body .u2120-mt_btn_top.show_scroll {
+          opacity: 1;
+          visibility: visible;
+        }
+       
+        body .u2120-mt_btn_top .u2120-mt-scrolltop-arrow {
+          display: inline-block;
+          position: relative;
+          text-align: center;
+          color: rgb(114,137,218);
+          margin-left: .75em;
+          border-radius: 161px;
+          vertical-align: middle;
+        }
+
+        body .u2120-mt_btn_top .u2120-mt-scrolltop-arrow:after {
+          content: '';
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-top: 2px solid rgb(114,137,218);
+          border-right: 2px solid rgb(114,137,218);
+          -moz-transform: rotate(-45deg);
+          -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+          vertical-align: middle;
+        }
+
+        body .u2120-mt_btn_top.arrow-only .u2120-mt-scrolltop-arrow {
+          margin-left: 0;
+          margin-top: 1px;
+        }
+
+        body .u2120-mt_btn_top:hover {
+          background: rgba(114,137,218, 1);
+          border-color: rgba(255,255,255, 1);
+          color: rgb(255,255,255);
+        }
+
+        body .u2120-mt_btn_top:hover .u2120-mt-scrolltop-arrow:after {
+          border-top: 2px solid rgb(255,255,255);
+          border-right: 2px solid rgb(255,255,255);
+        }
+
+        button::-moz-focus-inner {
+          border: none;
+        }
+
+      </style>
+    
+			<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+			<style>
+				.fa-block:before, .fa-block {
+					display: block;
+				}
+				#u332:hover .fa {
+					color: #7289DA;
+				}
+			</style>
+		
+			<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+			<style>
+				.fa-block:before, .fa-block {
+					display: block;
+				}
+				#u341:hover .fa {
+					color: #7289DA;
+				}
+			</style>
+		
+			<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+			<style>
+				.fa-block:before, .fa-block {
+					display: block;
+				}
+				#u336:hover .fa {
+					color: #7289DA;
+				}
+			</style>
+		
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pwelcome"><!-- column -->
+    <a class="anchor_item colelem" id="welcome"></a>
+    <div class="clearfix colelem" id="pu434-4"><!-- group -->
+     <!-- m_editable region-id="editable-static-tag-U434-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+     <div class="clearfix grpelem" id="u434-4" data-muse-uid="U434" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+      <p>HaATMLovers</p>
+     </div>
+     <!-- /m_editable -->
+     <nav class="MenuBar clearfix grpelem" id="menuu398"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem" id="u413"><!-- vertical box -->
+       <!-- m_editable region-id="editable-static-tag-U416" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u416" href="index.html#welcome" data-href="anchor:U69:U618" data-muse-uid="U416"><!-- horizontal box --><!-- m_editable region-id="editable-static-tag-U418-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u418-4" data-muse-uid="U418" data-muse-type="txt_frame"><!-- content --><p>WELKOM</p></div><!-- /m_editable --></a>
+       <!-- /m_editable -->
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u399"><!-- vertical box -->
+       <!-- m_editable region-id="editable-static-tag-U402" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u402" href="index.html#about" data-href="anchor:U69:U621" data-muse-uid="U402"><!-- horizontal box --><!-- m_editable region-id="editable-static-tag-U404-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u404-4" data-muse-uid="U404" data-muse-type="txt_frame"><!-- content --><p>OVER ONS</p></div><!-- /m_editable --></a>
+       <!-- /m_editable -->
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u427"><!-- vertical box -->
+       <!-- m_editable region-id="editable-static-tag-U428" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u428" href="index.html#wat-we-doen" data-href="anchor:U69:U627" data-muse-uid="U428"><!-- horizontal box --><!-- m_editable region-id="editable-static-tag-U430-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u430-4" data-muse-uid="U430" data-muse-type="txt_frame"><!-- content --><p>WAT WE DOEN</p></div><!-- /m_editable --></a>
+       <!-- /m_editable -->
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u406"><!-- vertical box -->
+       <!-- m_editable region-id="editable-static-tag-U409" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u409" href="index.html#contact" data-href="anchor:U69:U624" data-muse-uid="U409"><!-- horizontal box --><!-- m_editable region-id="editable-static-tag-U411-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,clickable" --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u411-4" data-muse-uid="U411" data-muse-type="txt_frame"><!-- content --><p>CONTACT</p></div><!-- /m_editable --></a>
+       <!-- /m_editable -->
+      </div>
+     </nav>
+    </div>
+    <div class="browser_width colelem" id="u394-bw">
+     <div class="museBGSize" id="u394"><!-- column -->
+      <div class="clearfix" id="u394_align_to_page">
+       <!-- m_editable region-id="editable-static-tag-U397-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u397-6" data-muse-uid="U397" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Welkom, HAATMLOVERS is een</p>
+        <p>groep van mensen die graag programmeren en coderen.</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U395-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u395-4" data-muse-uid="U395" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>We zijn allemaal studenten, en we vinden het allemaal leuk om te coderen. Er was echter één probleem, we deden het niet graag alleen. Dus toen kwamen we op het idee om HaaTMLovers op te richten. We coderen eigenlijk gewoon samen via Discord en bekijken elkaars werk, en zo krijg je live feedback en blijft het leuk.</p>
+       </div>
+       <!-- /m_editable -->
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu352"><!-- group -->
+     <div class="browser_width grpelem" id="u352-bw">
+      <div id="u352"><!-- group -->
+       <div class="clearfix" id="u352_align_to_page">
+        <!-- m_editable region-id="editable-static-tag-U353-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix grpelem" id="u353-4" data-muse-uid="U353" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>OVER ONS</p>
+        </div>
+        <!-- /m_editable -->
+        <div class="size_fixed grpelem" id="u2120"><!-- custom html -->
+         
+       
+    
+        </div>
+        <a class="anchor_item grpelem" id="about"></a>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="u2456"><!-- column -->
+      <div class="clearfix colelem" id="u359"><!-- column -->
+       <div class="museBGSize rounded-corners colelem" id="u360"><!-- simple frame --></div>
+       <!-- m_editable region-id="editable-static-tag-U363-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u363-4" data-muse-uid="U363" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Sander</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U361-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u361-4" data-muse-uid="U361" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Een Antwerpenaar die met het idee kwam om deze groep op te richten. Hij doet nu vooral het ledenbeheer en social-media.</p>
+       </div>
+       <!-- /m_editable -->
+      </div>
+      <div class="clearfix colelem" id="pu2411"><!-- group -->
+       <!-- m_editable region-id="editable-static-tag-U2411-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext museBGSize grpelem" id="u2411" href="https://www.facebook.com/SanderSnoeren2001" target="_blank" data-muse-uid="U2411"><!-- content --></a>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U2414-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext museBGSize grpelem" id="u2414" href="https://twitter.com/sander_snoeren" target="_blank" data-muse-uid="U2414"><!-- content --></a>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U2417-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext museBGSize grpelem" id="u2417" href="https://www.instagram.com/sandersnoeren/" target="_blank" data-muse-uid="U2417"><!-- content --></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="u3160"><!-- column -->
+      <div class="clearfix colelem" id="u2450"><!-- group -->
+       <div class="clearfix grpelem" id="u2321"><!-- column -->
+        <div class="museBGSize rounded-corners colelem" id="u2323"><!-- simple frame --></div>
+        <!-- m_editable region-id="editable-static-tag-U2322-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u2322-4" data-muse-uid="U2322" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>TIM</p>
+        </div>
+        <!-- /m_editable -->
+        <!-- m_editable region-id="editable-static-tag-U2324-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u2324-4" data-muse-uid="U2324" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>Dit is de persoon die alle servers beheert, van de FTP tot de mailserver, hij doet het allemaal.</p>
+        </div>
+        <!-- /m_editable -->
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu2596"><!-- group -->
+       <!-- m_editable region-id="editable-static-tag-U2596-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext museBGSize grpelem" id="u2596" href="https://www.facebook.com/TimChiotis" target="_blank" data-muse-uid="U2596"><!-- content --></a>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U2597-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+       <a class="nonblock nontext museBGSize grpelem" id="u2597" href="https://twitter.com/TimChiotis" target="_blank" data-muse-uid="U2597"><!-- content --></a>
+       <!-- /m_editable -->
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="u3163"><!-- group -->
+      <div class="clearfix grpelem" id="u2447"><!-- group -->
+       <div class="clearfix grpelem" id="u354"><!-- column -->
+        <div class="museBGSize rounded-corners colelem" id="u357"><!-- simple frame --></div>
+        <!-- m_editable region-id="editable-static-tag-U356-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u356-4" data-muse-uid="U356" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>Liam</p>
+        </div>
+        <!-- /m_editable -->
+        <!-- m_editable region-id="editable-static-tag-U355-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u355-4" data-muse-uid="U355" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>Een mede-oprichter en persoon die het idee mee heeft uitgewerkt. Momenteel is hij vooral de Discord-beheerder.</p>
+        </div>
+        <!-- /m_editable -->
+       </div>
+      </div>
+     </div>
+     <!-- m_editable region-id="editable-static-tag-U4396-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u4396" href="https://www.facebook.com/GawldenBeans" target="_blank" data-muse-uid="U4396"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U4397-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u4397" href="https://twitter.com/LiamBoonen" target="_blank" data-muse-uid="U4397"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U4398-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u4398" href="https://www.instagram.com/liamboonen/" target="_blank" data-muse-uid="U4398"><!-- content --></a>
+     <!-- /m_editable -->
+    </div>
+    <a class="anchor_item colelem" id="wat-we-doen"></a>
+    <!-- m_editable region-id="editable-static-tag-U1655-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix colelem" id="u1655-4" data-muse-uid="U1655" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>WAT WE DOEN</p>
+    </div>
+    <!-- /m_editable -->
+    <!-- m_editable region-id="editable-static-tag-U1658-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+    <div class="clearfix colelem" id="u1658-7" data-muse-uid="U1658" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+     <p>Ons doel is om programmeren meer toegankelijk te maken voor personen die het eigenlijk niet goed kunnen. Ook voor mensen die niet graag alleen programmeren bieden wij een oplossing. We hebben namelijk een Discordserver waar mensen samen kunnen coderen. Ook biedt onze <span id="u1658-2">Discord</span><span id="u1658-3"> de mogelijkheid voor</span> mensen om makkelijk vragen te stellen aan de kenners, waardoor ze sneller verder kunnen met hun project. Dit omdat we vinden dat het huidige systeem om je vragen op een forum te stellen te achterhaald is. Uiteindelijk willen we bereiken dat meer mensen kunnen maar vooral willen coderen.</p>
+    </div>
+    <!-- /m_editable -->
+    <a class="anchor_item colelem" id="contact"></a>
+    <div class="clearfix colelem" id="u322"><!-- column -->
+     <div class="colelem" id="u325"><!-- simple frame --></div>
+     <div class="colelem" id="u324"><!-- simple frame --></div>
+     <div class="colelem" id="u323"><!-- simple frame --></div>
+    </div>
+    <div class="clearfix colelem" id="pu302"><!-- group -->
+     <div class="clearfix grpelem" id="u302"><!-- column -->
+      <div class="position_content" id="u302_position_content">
+       <!-- m_editable region-id="editable-static-tag-U304-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u304-4" data-muse-uid="U304" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Contact</p>
+       </div>
+       <!-- /m_editable -->
+       <!-- m_editable region-id="editable-static-tag-U303-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+       <div class="clearfix colelem" id="u303-4" data-muse-uid="U303" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+        <p>Als je een lid wilt worden van de groep, klik dan op de Discord knop hieronder. Of stuur een mailtje.</p>
+       </div>
+       <!-- /m_editable -->
+       <div class="clearfix colelem" id="pwidgetu305"><!-- group -->
+        <form class="form-grp clearfix grpelem" id="widgetu305" method="post" enctype="multipart/form-data" action="scripts/form-u305.php"><!-- none box -->
+         <div class="fld-grp clearfix grpelem" id="widgetu316" data-required="true"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u318-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu316_input" name="custom_U316" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu316_prompt" for="widgetu316_input"><span class="actAsPara">Voornaam Achternaam</span></label></span>
+         </div>
+         <div class="fld-grp clearfix grpelem" id="widgetu307" data-required="true" data-type="email"><!-- none box -->
+          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u310-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu307_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu307_prompt" for="widgetu307_input"><span class="actAsPara">Email</span></label></span>
+         </div>
+         <!-- m_editable region-id="editable-static-tag-U311-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+         <div class="clearfix grpelem" id="u311-4" data-muse-uid="U311" data-muse-type="txt_frame"><!-- content -->
+          <p>Submitting Form...</p>
+         </div>
+         <!-- /m_editable -->
+         <!-- m_editable region-id="editable-static-tag-U320-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+         <div class="clearfix grpelem" id="u320-4" data-muse-uid="U320" data-muse-type="txt_frame"><!-- content -->
+          <p>The server encountered an error.</p>
+         </div>
+         <!-- /m_editable -->
+         <!-- m_editable region-id="editable-static-tag-U306-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
+         <div class="clearfix grpelem" id="u306-4" data-muse-uid="U306" data-muse-type="txt_frame"><!-- content -->
+          <p>Formulier ontvangen.</p>
+         </div>
+         <!-- /m_editable -->
+         <!-- m_editable region-id="editable-static-tag-U321-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+         <button class="submit-btn NoWrap clearfix grpelem" id="u321-4" data-muse-uid="U321" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" type="submit" value="Indienen" tabindex="4"><!-- content -->
+          <div style="margin-top:-15px;height:15px;">
+           <p>Indienen</p>
+          </div>
+         </button>
+         <!-- /m_editable -->
+         <div class="fld-grp clearfix grpelem" id="widgetu312" data-required="false"><!-- none box -->
+          <span class="fld-textarea actAsDiv clearfix grpelem" id="u314-4"><!-- content --><textarea class="wrapped-input" id="widgetu312_input" name="custom_U312" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu312_prompt" for="widgetu312_input"><span class="actAsPara">Uw vraag of bericht:</span></label></span>
+         </div>
+        </form>
+        <div class="clearfix grpelem" id="u1828"><!-- group -->
+         <!-- m_editable region-id="editable-static-tag-U1841-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+         <div class="ts-Default-Link-Style--copy clearfix grpelem" id="u1841-14" data-muse-uid="U1841" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+          <p>Vragen over de groep: <a class="nonblock" href="mailto:haatmlovers@telenet.be" title="haatmlovers@telenet.be">haatmlovers@telenet.be</a></p>
+          <p>Vragen over de server:<span id="u1841-6"> </span><a class="nonblock" href="mailto:tim.chiotis@gmail.com" title="tim.chiotis@gmail.com"><span id="u1841-7">tim.chiotis@gmail.com</span></a><span title="tim.chiotis@gmail.com" id="u1841-11"><br/><br/></span></p>
+         </div>
+         <!-- /m_editable -->
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="u2614"><!-- column -->
+      <div class="clearfix colelem" id="u330"><!-- group -->
+       <div class="size_fixed grpelem" id="u332"><!-- custom html -->
+        <i class="fa fa-html5 fa-block" style="line-height:75px;"></i>
+       </div>
+       <div class="clearfix grpelem" id="pu334-4"><!-- column -->
+        <!-- m_editable region-id="editable-static-tag-U334-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u334-4" data-muse-uid="U334" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>HTML</p>
+        </div>
+        <!-- /m_editable -->
+        <!-- m_editable region-id="editable-static-tag-U331-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u331-4" data-muse-uid="U331" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>Elke site op het web is opgebouwd uit HTML. Daarom is het leuk om deze taal te leren.</p>
+        </div>
+        <!-- /m_editable -->
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u340"><!-- group -->
+       <div class="size_fixed grpelem" id="u341"><!-- custom html -->
+        <i class="fa fa-css3 fa-block" style="line-height:77px;"></i>
+       </div>
+       <div class="clearfix grpelem" id="pu344-4"><!-- column -->
+        <!-- m_editable region-id="editable-static-tag-U344-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u344-4" data-muse-uid="U344" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>CSS</p>
+        </div>
+        <!-- /m_editable -->
+        <!-- m_editable region-id="editable-static-tag-U343-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u343-4" data-muse-uid="U343" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>CSS is een stylesheet, hierin zitten dus alle &quot;grafische&quot; dingen van een site.</p>
+        </div>
+        <!-- /m_editable -->
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u335"><!-- group -->
+       <div class="size_fixed grpelem" id="u336"><!-- custom html -->
+        <i class="fa fa-file-text fa-block" style="line-height:75px;"></i>
+       </div>
+       <div class="clearfix grpelem" id="pu338-4"><!-- column -->
+        <!-- m_editable region-id="editable-static-tag-U338-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u338-4" data-muse-uid="U338" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>ANDERE PROGRAMMEER TALEN</p>
+        </div>
+        <!-- /m_editable -->
+        <!-- m_editable region-id="editable-static-tag-U339-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
+        <div class="clearfix colelem" id="u339-4" data-muse-uid="U339" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc"><!-- content -->
+         <p>We hebben ook mensen die andere talen kunnen programmeren, zoals Javascript of C#.</p>
+        </div>
+        <!-- /m_editable -->
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu2627"><!-- group -->
+     <!-- m_editable region-id="editable-static-tag-U2627-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u2627" href="https://www.facebook.com/HaaTMLovers" target="_blank" data-muse-uid="U2627"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U2881-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u2881" href="http://m.me/HaaTMLovers" target="_blank" data-muse-uid="U2881"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U2628-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u2628" href="https://twitter.com/HaaTMLovers" target="_blank" data-muse-uid="U2628"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U2838-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u2838" href="https://www.instagram.com/haatmlovers/" target="_blank" data-muse-uid="U2838"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U3423-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u3423" href="https://www.paypal.me/HaaTMLovers" target="_blank" data-muse-uid="U3423"><!-- content --></a>
+     <!-- /m_editable -->
+     <!-- m_editable region-id="editable-static-tag-U4168-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+     <a class="nonblock nontext museBGSize grpelem" id="u4168" href="http://rebrand.ly/HaaTMLovers-Playlist" target="_blank" data-muse-uid="U4168"><!-- content --></a>
+     <!-- /m_editable -->
+    </div>
+    <div class="clearfix colelem" id="u326"><!-- column -->
+     <div class="colelem" id="u329" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+     <div class="colelem" id="u327" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+     <div class="colelem" id="u328" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- simple frame --></div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="2539" data-content-above-spacer="2539" data-content-below-spacer="62"></div>
+   <!-- m_editable region-id="editable-static-tag-U1341-BP_infinity" template="index.html" data-type="html" data-ice-options="clickable" data-ice-editable="link" -->
+   <a class="nonblock nontext museBGSize grpelem" id="u1341" href="https://discordapp.com/invite/YKgDZyE" target="_blank" data-muse-uid="U1341"><!-- content --></a>
+   <!-- /m_editable -->
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide whether to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
+k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){f(!0)},5E3):f()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.watch","webpro","jquery.scrolleffects"],function(c){var $ = c;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#widgetu305', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu305 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+$('#u394').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,-21.4]},{"speed":[0,0],"in":[-21.4,Infinity]}]);/* scroll effect */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4177726516" type="text/javascript" async data-main="scripts/museconfig.js?crc=128606099" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+      <script>
+        console.log("Back To Top Button (1.1) - MuseThemes");
+      </script>
+
+      <script>
+      var checkIfNoteMuse = $('#page').length;
+
+      if (checkIfNoteMuse !== 0) {
+
+        function debounce(func, wait, immediate) {
+          var timeout;
+          return function () {
+            var context = this, args = arguments;
+            var later = function () {
+              timeout = null;
+              if (!immediate) func.apply(context, args);
+            };
+        
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) func.apply(context, args);
+          };
+        }
+
+        $(document).ready(function(){
+
+          var buttonText = '';
+
+          if (buttonText.length > 0) {
+            $('body').append('<a href="#" class="u2120-mt_btn_top"> <span class="u2120-mt-scrolltop-arrow"></span></a>');
+          } else {
+            $('body').append('<a href="#" class="u2120-mt_btn_top arrow-only"><span class="u2120-mt-scrolltop-arrow"></span></a>');
+          }
+
+          if ("disable" == "enable") {
+            $( "<style>@media (min-width: 720px) and (max-width: 1280px) {body .u2120-mt_btn_top {display: none !important;}}</style>" ).appendTo( "head" );
+          }
+
+          var scrollSpeed = 498;
+          var $base = $('html, body');
+          var alignment = 'right';
+
+          switch(alignment) {
+            case 'center':
+              var paddingBottom = '30';
+              var widthOfElement = $('.u2120-mt_btn_top').outerWidth();
+              widthOfElement = widthOfElement / 2;
+              $('.u2120-mt_btn_top').css('left', '50%');
+              $('.u2120-mt_btn_top').css('margin-left', '-' + widthOfElement + 'px');
+              $('.u2120-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            case 'left':
+              var paddingLeft = '30';
+              var paddingBottom = '30';
+              $('.u2120-mt_btn_top').css('left', paddingLeft + 'px');
+              $('.u2120-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            case 'right':
+              var paddingRight = '30';
+              var paddingBottom = '30';
+              $('.u2120-mt_btn_top').css('right', paddingRight + 'px');
+              $('.u2120-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+
+            default: 
+              var paddingBottom = '30';
+              $('.u2120-mt_btn_top').css('left', '50%');
+              $('.u2120-mt_btn_top').css('bottom', paddingBottom + 'px');
+            break;
+          }
+
+          $('.u2120-mt_btn_top').on('click', function(e){
+            
+            e.preventDefault();
+            
+            $base.animate({
+              scrollTop: 0
+            }, scrollSpeed);
+
+          });
+
+          var showButtonValue = parseInt('100');
+
+          var showOrHideButton = debounce(function(){
+
+            if ($(window).scrollTop() > showButtonValue) {
+              $('.u2120-mt_btn_top').addClass('show_scroll');
+            } else {
+              $('.u2120-mt_btn_top').removeClass('show_scroll');
+            }
+
+          }, 200);
+
+          $(window).scroll(function(){
+            showOrHideButton();
+          });
+
+
+        });
+      }  
+      </script>
+
+    
+   </body>
+</html>
