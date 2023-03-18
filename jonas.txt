@@ -1,0 +1,12 @@
+<li>
+    <article>
+        <img alt="Photo of Jonas" src="./assets/media/images/jonas.jpg">
+        <h3>Jonas</h3>
+        <p>Since the start of the project, Jonas has been interested to contribute. He loves coding with all his heart and he loves to help people!</p>
+        <ul class="socials">
+            <li>
+                <a class="icon icon--twt" href="https://github.com/Autrixx" target="_blank">Twitter</a>
+            </li>
+        </ul>
+    </article>
+</li>
