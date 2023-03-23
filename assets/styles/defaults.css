@@ -16,8 +16,16 @@ body {
 }
 
 h1 {
-    font-size: 3.052rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     text-transform: uppercase;
+}
+
+@media (min-width: 30rem) {
+    h1 {
+        font-size: 3.052rem;
+        font-weight: normal;
+    }
 }
 
 h2 {
