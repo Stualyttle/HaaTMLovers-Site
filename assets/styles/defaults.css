@@ -1,0 +1,55 @@
+/* v1.0.2
+Lyttle Defaults ~ Recommended to use with Lyttle Reset:
+https://github.com/Stualyttle/LyttleTools/blob/main/CSS/reset.css
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* word-wrap: break-word; */
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (min-width: 30rem) {
+    h1 {
+        font-size: 3.052rem;
+        font-weight: normal;
+    }
+}
+
+h2 {
+    font-size: 2.441rem
+}
+
+h3 {
+    font-size: 1.953rem
+}
+
+h4 {
+    font-size: 1.563rem
+}
+
+h5 {
+    font-size: 1.563rem
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--clr-tertiary);
+}
+
+a {
+    font-weight: bold;
+}
